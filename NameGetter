@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-I put this script on an Empty Gameobject called NameGetter.
+//I put this script on an Empty Gameobject called NameGetter.
 
 public class NameGetterScene0 : MonoBehaviour
 {

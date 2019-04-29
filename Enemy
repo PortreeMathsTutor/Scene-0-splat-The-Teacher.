@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-I put this on the enemy prefab and put a prefab in everyscene.
+//I put this on the enemy prefab and put a prefab in everyscene.
 /// <summary>
 /// This script defines 'Enemy's' health and behavior. 
 /// </summary>

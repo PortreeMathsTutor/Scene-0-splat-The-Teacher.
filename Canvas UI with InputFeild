@@ -1,0 +1,4 @@
+I added a Button and an InoutFeild
+The button was connected On Click () to NameGetterScene0.OnSubmit
+
+and the InputFeild was not connected but it is refferenced in the NameGetter Script.

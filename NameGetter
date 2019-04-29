@@ -1,0 +1,25 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
+I put this script on an Empty Gameobject called NameGetter.
+
+public class NameGetterScene0 : MonoBehaviour
+{
+    public InputField nameFeild;
+   public static string playerName = " Nobody ";
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+    public void OnSubmit()
+    {
+        playerName = nameFeild.text;
+        Debug.Log("name is "+ playerName);
+        SceneManager.LoadScene(1);
+    }
+ 
+}
